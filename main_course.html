@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Các khóa học</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div id="mainCourse">
+    <div class="heading" >
+      <a href="index.html">
+          <img style="height: 40px; width: auto; padding-left: 20px;" src="https://mindx.edu.vn/images/logo.png" alt="mindx">
+      </a>
+      <div class="nav">
+          <li>
+              <a class="itemnav itemnav1" href="#" style="text-decoration: none;">Trang chủ</a>
+          </li>
+          <li>
+              <a class="itemnav itemnav2" href="#" style="text-decoration: none;">Khóa học</a>
+          </li>
+      </div>
+      <div class="registerandlogin">
+          <li>
+              <a class="itemnav login" href="index.html" style="text-decoration: none;">Trang chủ</a>
+          </li>
+          <li>
+              <a class="itemnav register" href="main_course.html" style="text-decoration: none;">Khóa học</a>
+          </li>
+          <label for="nav-mobile-input" class="nav_button">
+  
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                  class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                      d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                  </path>
+              </svg>
+          </label>
+          <input type="checkbox" name="" hidden class="_nav_input" id="nav-mobile-input">
+          <label for="nav-mobile-input" class="nav__overlay"></label>
+          <div class="nav_mobile">
+              <label for="nav-mobile-input" class="__nav_mobile-close">
+                  <svg  class = "button-close" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                      class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 352 512">
+                      <path fill="currentColor"
+                          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                      </path>
+                  </svg>
+              </label>
+              <li>
+                  <a class="itemnav_login_mobile" href="index.html" style="text-decoration: none;">
+                      <button class = "buttonn" style="width: 200px; height: 45px; border-radius: 50px;">Trang chủ</button>
+                  </a>
+              </li>
+              
+              <li>
+                  <a class="itemnav_login_mobile" href="main_course.html" style="text-decoration: none;">
+                      <button class = "buttonn" style="width: 200px; height: 45px; border-radius: 50px;"> Khóa học</button>
+                  </a>
+              </li>
+          </div>
+      </div>
+  </div>
+  
+    <div class="grid wide" style="margin-top: 80px;" >
+      <div class="row" >
+        <div class="col l-3 m-0 c-0 ">
+          <div class="courseSlideBar">
+            <h4>Front-end</h4>
+            <ul>
+              <li class="category-title" id="html_css"> <a>HTML, CSS</a> </li>
+              <li class="category-title" id="js_course"> <a>Javascript</a> </li>
+            </ul>
+            <h4>Back-end</h4>
+            <ul>
+              <li class="category-title" id="nodejs_course"> <a>Nodejs</a> </li>
+            </ul>
+            <h4>DevOps</h4>
+  
+           
+          </div>
+  
+        </div>
+  
+        <div class="col l-9 m-12 c-12 courseMenu">
+          <div style="width: 100%; text-align: right; margin-bottom: 10px;">
+            <button class="btn_darkmode" onclick="darkmode()">Dark mode</button>
+         </div>
+        
+          <div class="title category-title active" id="all">
+            <h2 style="cursor: pointer;"> Khóa học <i class="fa fa-book" style="font-size:20px;color:white"></i></h2>
+          </div>
+
+          <div class="row">
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all other">
+                <div class="courseItemImage">
+                  <a href="index_son.html"> <img src="Image/basic_knowledge.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="course.html">Kiến thức cơ bản, tổng quan cho người mới bắt đầu</a></h3>
+                    <p>Kiến thức cơ bản dành cho người mới, không phân biệt bạn theo Front-end, Back-end hay Devops</p>
+                  </div>
+                  <div class="btn"><a class='btn_a' href="course.html">Học ngay </a></div>
+                  
+                </div>
+              </div>
+            </div>
+  
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all html_css">
+                <div class="courseItemImage">
+                  <a href="index_son1.html"> <img src="Image/ht.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="course1.html">HTML, CSS từ zero đến Hero</a></h3>
+                    <p>Khóa học đề cao việc thực hành qua những ví dụ trong thực tế giúp học viên nhanh chóng xây dựng được
+                      giao diện website</p>
+                  </div>
+                  
+                    <div class="btn"><a class='btn_a' href="course1.html">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all html_css">
+                <div class="courseItemImage">
+                  <a href="#"> <img src="Image/respon.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="#">Thiết kế web responsive</a></h3>
+                    <p>Khóa học này sẽ giúp bạn nắm chắc tư tưởng cốt lõi của việc xây dựng giao diện website responsive và
+                      áp dụng trong thực tế</p>
+                    </div>
+                    <div class="btn"><a class='btn_a' href="#">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all js_course">
+                <div class="courseItemImage">
+                  <a href="#"> <img src="Image/basic_js.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="#">Lập trình Javascript cơ bản</a></h3>
+                    <p>Khóa học Javascript cơ bản dành cho mọi đối tượng bắt đầu học lập trình với nội dung ngắn gọn, dễ
+                      hiểu và hệ thống làm bài tập phong phú</p>
+                  </div>
+                    <div class="btn"><a class='btn_a' href="#">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all nodejs_course">
+                <div class="courseItemImage">
+                  <a href="#"> <img src="Image/nodejs.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="#">Xây dựng web với NodeJS & ExpressJS</a></h3>
+                    <p>Xây dựng web trong thực tế với NodeJS & ExpressJS với cách chia sẻ Học ngay, tận tâm, dễ hiểu và chất
+                      giọng giàu sức sống của người chia sẻ</p>
+                  </div>
+                    <div class="btn"><a class='btn_a' href="#">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all html_css">
+                <div class="courseItemImage">
+                  <a href="#"> <img src="Image/html_tip.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="#">HTML, CSS tips</a></h3>
+                    <p>Tutorials về HTML, CSS, UI, UX sẽ được tổng hợp tại khóa học này, các video có nội dung ngắn gọn, súc
+                      tích giúp học viên có thể ứng dụng ngay vào thực tế</p>
+                  </div>
+                 
+                    <div class="btn"><a class='btn_a' href="#">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col l-4 m-6 c-12">
+              <div class="courseItem all js_course">
+                <div class="courseItemImage">
+                  <a href="#"> <img src="Image/dont_touch.jpg" alt="ảnh"></a>
+                </div>
+                <div class="courseContent">
+                  <div class="text">
+                    <h3><a href="#">[Machine learning] Ứng dụng cảnh báo khi sờ lên mặt</a></h3>
+                    <p>Tutorials xây dựng ứng dụng "Cảnh báo khi sờ tay lên mặt" sử dụng mã nguồn mở TensorFlow cho Machine
+                      learning</p>
+                  </div>
+                    <div class="btn"><a class='btn_a' href="#">Học ngay </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="background-color: black;">
+      <div class="insidefooter">
+          <div class="foo footer_1">
+              <a class="co_dinh_anh" href="">
+                  <img class="imgoffootter" src="https://mindxspace.com/image/Logo%20mindX-05%20trang%20ngang.png"
+                      alt="">
+              </a>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px;text-align: center;">Online Cource là nơi học
+                  lập trình Học ngay .</p>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Các khoá học được
+                  đầu tư kỹ lưỡng từ nội dung tới chất lượng hình ảnh và âm thanh.</p>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Học viên có thể
+                  học từ con số 0 tới khi trở thành lập trình viên chuyên nghiệp tại đây.</p>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">© 2019 MyCV JSC.
+                  All rights reserved.</p>
+          </div>
+          <div class="foo footer_2">
+              <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Online Cource</h2>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Giới thiệu</p>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Câu hỏi thường
+                  gặp</p>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Liên hệ</p>
+          </div>
+          <div class="foo footer_3">
+              <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Sản phẩm</h2>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;" href="">
+                  Fullstack.edu.vn</p>
+          </div>
+          <div class="foo footer_4">
+              <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Hỗ trợ</h2>
+              <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Đóng góp</p>
+          </div>
+          <div class="foo footer_5">
+              <h2 style="text-align: center;color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Theo dõi chúng
+                  tôi</h2>
+                  <div class="fb">
+                    <a href="https://www.facebook.com/huyson922">Huy Sơn</a>
+                    <a href="">Nguyễn Phúc</a>
+                </div>
+          </div>
+      </div>
+
+  </div>
+  </div>
+  
+
+  <script src="js/main_course.js"></script>
+ 
+</body>
+
+</html>

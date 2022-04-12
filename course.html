@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div id="detailCourse">
+        <div class="heading" style="background-color: gray; height: 58px;">
+            <a href="index.html">
+                <img style="height: 40px; width: auto; padding-left: 20px;" src="https://mindx.edu.vn/images/logo.png"
+                    alt="mindx">
+            </a>
+            <div class="nav">
+                <li>
+                    <a class="itemnav itemnav1" href="#" style="text-decoration: none;">Trang chủ</a>
+                </li>
+                <li>
+                    <a class="itemnav itemnav2" href="#" style="text-decoration: none;">Khóa học</a>
+                </li>
+            </div>
+            <div class="registerandlogin">
+                <li>
+                    <a class="itemnav login" href="index.html" style="text-decoration: none;">Trang chủ</a>
+                </li>
+                <li>
+                    <a class="itemnav register" href="main_course.html" style="text-decoration: none;">Khóa học</a>
+                </li>
+                <label for="nav-mobile-input" class="nav_button">
+
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </label>
+                <input type="checkbox" name="" hidden class="_nav_input" id="nav-mobile-input">
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+                <div class="nav_mobile">
+                    <label for="nav-mobile-input" class="__nav_mobile-close">
+                        <svg class="button-close" aria-hidden="true" focusable="false" data-prefix="fas"
+                            data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                            <path fill="currentColor"
+                                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                            </path>
+                        </svg>
+                    </label>
+                    <li>
+                        <a class="itemnav_login_mobile" href="index.html" style="text-decoration: none;">
+                            <button class="buttonn" style="width: 200px; height: 45px; border-radius: 50px;">Trang
+                                chủ</button>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="itemnav_login_mobile" href="main_course.html" style="text-decoration: none;">
+                            <button class="buttonn" style="width: 200px; height: 45px; border-radius: 50px;">Khóa
+                                học</button>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="grid wide" style="margin-top: 100px">
+            <div class="row" style="justify-content: center;">
+                <div class="col l-7 m-12 c-12 ">
+                    <ul class="left_column">
+                        <li class="RelatedVideo all vd1 " id="active">
+                            <!-- <div class="boxVideo">
+                                <iframe class="video" src="https://www.youtube.com/embed/IF1dd3KV84w" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div> -->
+
+                            <div>
+                                <video class="video" src="video/c-p1.mp4" controls></video>
+                            </div>
+
+                           <div class="contentVideoo">
+                            <h3>8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!</h3>
+                            <div class="learning_headingInfoWrapper">
+                                <div class="learning_share">
+                                    <span>Chia sẻ</span>
+                                    <i class="fa fa-facebook-square" aria-hidden="true"
+                                        title="Chia sẻ khóa học qua Facebook"></i>
+                                    <i class="fa fa-envelope" aria-hidden="true" title="Chia sẻ khóa học qua Mail"></i>
+                                    <i class="fa fa-link" aria-hidden="true" title="Chia sẻ khóa học qua liên kết"></i>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Tham gia nhóm <a href="https://www.facebook.com/groups/f8official/">Học lập trình tại
+                                        F8</a>
+                                    trên Facebook để cùng nhau trao đổi trong quá trình học tập ❤️</p>
+                                <p>Các bạn subscribe kênh Youtube <a
+                                        href="https://url.mycv.vn/f8_youtube?ref=lesson_desc">F8
+                                        Official</a> để nhận thông báo khi có các bài học mới nhé ❤️</p>
+                                <h3>8 lời khuyên hữu ích để học tốt hơn tại F8</h3>
+                                <ul>
+                                    <li>1. Học theo lộ trình trong danh sách phát (nếu học với <a
+                                            href="https://www.youtube.com/c/F8VNOfficial/playlists">Youtube</a>)</li>
+                                    <li>2. Xem kỹ trước một lượt, xem lại và thực hành</li>
+                                    <li>3. Nên có 2 màn hình để học liền mạch hơn</li>
+                                    <li>4. Lựa chọn không gian phù hợp với bản thân (tập trung hơn, học vào hơn)</li>
+                                    <li>5. Luyện tập thói quen note ra giấy nhớ hoặc cuốn sổ nhỏ</li>
+                                    <li>6. Rèn luyện kỹ năng tự học</li>
+                                    <li>7. Luôn đặt deadline cho những việc mình làm</li>
+                                    <li>8. Tư duy học để làm ra sản phẩm, luôn cố gắng áp dụng kiến thức lý thuyết vào
+                                        thực tế
+                                    </li>
+                                </ul>
+                            </div>
+                           </div>
+
+                           
+
+
+                        </li>
+
+                        <li class="RelatedVideo all vd2">
+                            <!-- <div>
+                                <iframe class="video" width="100%" height="400"
+                                    src="https://www.youtube.com/embed/zoELAirXMJY" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div> -->
+                            <div>
+                                <video class="video" src="video/c-p1-2.mp4" controls></video>
+                            </div>
+
+                            <div class="contentVideoo">
+                                <h3>Mô hình Client - Server</h3>
+                                <div class="learning_headingInfoWrapper">
+
+                                    <div class="learning_share">
+                                        <span>Chia sẻ</span>
+                                        <i class="fa fa-facebook-square" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua Facebook"></i>
+                                        <i class="fa fa-envelope" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua Mail"></i>
+                                        <i class="fa fa-link" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua liên kết"></i>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>Tham gia nhóm <a href="https://www.facebook.com/groups/f8official/">Học lập trình
+                                            tại
+                                            F8</a>
+                                        trên Facebook để cùng nhau trao đổi trong quá trình học tập ❤️</p>
+                                    <p>Các bạn subscribe kênh Youtube <a
+                                            href="https://url.mycv.vn/f8_youtube?ref=lesson_desc">F8
+                                            Official</a> để nhận thông báo khi có các bài học mới nhé ❤️</p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="RelatedVideo all vd3">
+                            <!-- <div>
+                                <iframe class="video" width="100%" height="400"
+                                    src="https://www.youtube.com/embed/M62l1xA5Eu8" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div> -->
+                            <div>
+                                <video class="video" src="video/c-p1-3.mp4" controls></video>
+                            </div>
+
+                            <div class="contentVideoo">
+                                <h3>Domain là gì? Bạn đã thật sự hiểu về domain?</h3>
+                                <div class="learning_headingInfoWrapper">
+
+                                    <div class="learning_share">
+                                        <span>Chia sẻ</span>
+                                        <i class="fa fa-facebook-square" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua Facebook"></i>
+                                        <i class="fa fa-envelope" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua Mail"></i>
+                                        <i class="fa fa-link" aria-hidden="true"
+                                            title="Chia sẻ khóa học qua liên kết"></i>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>Tham gia nhóm <a href="https://www.facebook.com/groups/f8official/">Học lập trình
+                                            tại
+                                            F8</a>
+                                        trên Facebook để cùng nhau trao đổi trong quá trình học tập ❤️</p>
+                                    <p>Các bạn subscribe kênh Youtube <a
+                                            href="https://url.mycv.vn/f8_youtube?ref=lesson_desc">F8
+                                            Official</a> để nhận thông báo khi có các bài học mới nhé ❤️</p>
+                                </div>
+
+
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="right_column ">
+                        <!-- <a href="" onclick="kt_btn()">Kiến thức</a> -->
+                        <div class="study">
+                            <div class="title">
+                                <p style="margin:0; margin-bottom: 20px;"> <span style="line-height: 45px;"> Kiến thức
+                                        cơ bản, tổng quan cho người mới bắt đầu</span> <br>
+                                    <a class="shImg "
+                                        style="color: red; cursor: pointer; text-decoration: underline;float: right;">Ẩn
+                                        hình thu nhỏ</a>
+
+                                    <button onclick="check()"
+                                        style="border-radius: 6px; background-color: #f0532a; color: white; border: none; cursor: pointer; height: 30px; margin-left: 5px;">Số
+                                        bài đã học</button> 
+                                        <span class="countCourse" style="font-size: 14px; ">0/3</span>
+                                </p>
+                            </div>
+                            <div>
+                                <div class="groupTitle">
+                                    <h3 style="font-weight: bold;margin: 0;line-height: 40px; ">Phần 1:
+                                        Kiến
+                                        thức tổng quan
+
+                                    </h3>
+                                   
+                                </div>
+                                <ul class="groupVideo" style="padding: 0; margin: 0;">
+                                    <li class="content ">
+                                        <div class="numberCourse">
+                                            <span>1</span>
+                                        </div>
+
+                                        <div>
+                                            <img class="imgCourse" src="Image/basic_knowledge.jpg" alt="">
+                                        </div>
+
+                                        <div class="contentCourse active" id="vd1">
+                                            <span>8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!</span>
+                                        </div>
+
+                                        <div class="check">
+                                            <input class="box" type="checkbox">
+                                        </div>
+                                    </li>
+                                    <br>
+                                    <li class="content">
+                                        <div class="numberCourse">
+                                            <span>2</span>
+                                        </div>
+
+                                        <div>
+                                            <img class="imgCourse" src="Image/2.jpg" alt="">
+                                        </div>
+
+                                        <div class="contentCourse" id="vd2">
+                                            <span>Mô hình Client - Server</span>
+                                        </div>
+
+                                        <div>
+                                            <input class="box" type="checkbox">
+                                        </div>
+                                    </li>
+                                    <br>
+                                    <li class="content">
+                                        <div class="numberCourse">
+                                            <span>3</span>
+                                        </div>
+
+                                        <div>
+                                            <img class="imgCourse" src="Image/3.jpg" alt="">
+                                        </div>
+
+                                        <div class="contentCourse" id="vd3">
+                                            <span>Domain là gì? Bạn đã thật sự hiểu về domain?</span>
+                                        </div>
+
+                                        <div>
+                                            <input class="box" type="checkbox">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="background-color: black;">
+            <div class="insidefooter">
+                <div class="foo footer_1">
+                    <a class="co_dinh_anh" href="">
+                        <img class="imgoffootter" src="https://mindxspace.com/image/Logo%20mindX-05%20trang%20ngang.png"
+                            alt="">
+                    </a>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px;text-align: center;">Mindx là nơi học
+                        lập trình miễn phí.</p>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Các khoá học được
+                        đầu tư kỹ lưỡng từ nội dung tới chất lượng hình ảnh và âm thanh.</p>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Học viên có thể
+                        học từ con số 0 tới khi trở thành lập trình viên chuyên nghiệp tại đây.</p>
+                    <p style="color: w#b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">© 2019 MyCV JSC.
+                        All rights reserved.</p>
+                </div>
+                <div class="foo footer_2">
+                    <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Mindx</h2>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Giới thiệu</p>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Câu hỏi thường
+                        gặp</p>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Liên hệ</p>
+                </div>
+                <div class="foo footer_3">
+                    <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Sản phẩm</h2>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;" href="">
+                        Fullstack.edu.vn</p>
+                </div>
+                <div class="foo footer_4">
+                    <h2 style="text-align: center; color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Hỗ trợ</h2>
+                    <p style="color: #b9a079;margin-top:20px;margin-bottom: 20px; text-align: center;">Đóng góp</p>
+                </div>
+                <div class="foo footer_5">
+                    <h2 style="text-align: center;color: #f8fbff;margin-bottom: 50px; margin-top: 50px">Theo dõi chúng
+                        tôi</h2>
+                        <div class="fb">
+                            <a href="https://www.facebook.com/nguyen.h.mc">Hiếu Nguyễn</a>
+                            <a href="https://www.facebook.com/qunduong">Quân Dương</a>
+                            <a href="https://www.facebook.com/quyphuc21/">Nguyễn Phúc</a>
+                            <a href="https://www.facebook.com/hgsonmetmoi">Hoàng Sơn</a>
+                        </div>
+                </div>
+            </div>
+            
+    </div>
+
+
+    <script src="js/course.js"></script>
+</body>
+
+</html>

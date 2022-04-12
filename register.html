@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div class= "container-fluid" id="mainRegiter">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex flex-column  justify-content-center align-items-center shadow p-3 mb-5 bg-white rounded">
+                <a href="index.html" >
+                     <img style="height: 150px; width: 150px; border-radius: 50%;" src="https://previews.123rf.com/images/marylia17/marylia171706/marylia17170600025/79641527-vector-internet-learning-enseignement-logo-de-cours-en-ligne-ic%C3%B4ne.jpg" alt="">
+                </a>
+                <h1>Online Courses</h1>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-10 col-12 d-flex justify-content-center shadow p-3 mb-5 bg-white rounded" style="margin-top: 28px">
+                <div class="form">
+                    <h3>Đăng ký thành viên</h3>
+                    <div class = "bar">
+                        <span style="text-align: center;">Online Courses là cộng đồng học lập trình thực tế miễn phí. Đăng nhập để cùng nhau học tập, đóng góp và chia sẻ kiến thức ❤️</span>
+                    </div>
+                    <div class="bar barofgg"> 
+                       <div class = "barlogin" style="width: 100%; height: 40px; align-items: center; justify-content: center; display: flex;border-radius: 5px; border: 1px solid black;">
+                            <img src="https://img.icons8.com/plasticine/30/000000/google-logo.png"/>
+                            <a href="#" style="text-decoration: none; padding-left: 5px; color: black; ">Đăng nhập với Google</a>
+                       </div>
+                       <div class = "barlogin" style="width: 100%; height: 40px; margin-top: 16px; align-items: center; justify-content: center; display: flex; border-radius: 5px; border: 1px solid black;">
+                            <img src="https://img.icons8.com/color/30/000000/facebook.png"/>  
+                            <a href="#" style="text-decoration: none; padding-left: 5px; color: black;">Đăng nhập với Facebook</a>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <span style="text-align: center;">Mẹo: Đăng nhập nhanh hơn với Google hoặc Facebook!</span>
+                    </div>
+                    <div class="bar b">
+                        <span class="a" style="padding-right: 8px;padding-left: 8px;">HOẶC</span>
+                    </div>
+                    <span style="font-weight: bold; font-size: x-large;">Đăng ký thành viên</span>
+                    <div class="bar barname">
+                        <div class="content contentname"><label for="">Họ và tên</label></div>
+                        <div class="inp name">
+                            <input type="text" placeholder="Eg. Nguyễn Huy Sơn" id="inputofname">
+                        </div>
+                        <div class="node" style="color: red"><span id="nodeofname"></span></div>
+                    </div>
+
+                    <div class="bar baremail">
+                        <div class="content contentemail"><label for="">Email</label></div>
+                        <div class="inp email">
+                            <input type="email" placeholder="Eg. huyson1@gmail.com" id="inputofemail">
+                        </div>
+                        <div class="node" style="color: red"><span id="nodeofemail"></span></div>
+                    </div>
+
+                    <div class="bar password">
+                        <div class="content contentpassword"><label for="">Password</label></div>
+                        <div class="inp password">
+                            <input type="password" placeholder="Nhập mật khẩu của bạn" id="inputofpassword">
+                        </div>
+                        <div class="node" style="color: red"><span id="nodeofpassword"></span></div>
+
+                    </div>
+
+                    <div class="bar barpasswordconfirm">
+                        <div class="content contentpasswordconfirm"><label for="">Nhập lại Password</label></div>
+                        <div class="inp passwordconfirm">
+                            <input id="passwordconfirm" type="password" placeholder="Nhập lại password">
+                        </div>
+                        <div class="node" style="color: red"><span id="nodeofpasswordconfirm"> </span></div>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" style="width: 80%; margin-top: 10px; margin-bottom: 10px; background-color: #1dbfaf; border: none;" id="register">Đăng ký</button>
+                    <div class="bar foot">
+                        <span>Bạn đã có tài khoản? <a href="login.html" style="color: #1dbfaf;">Đăng nhập</a></span>
+                    </div>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
